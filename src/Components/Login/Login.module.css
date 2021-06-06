@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/***************************************** Right *****************************************/
+
+.YellowBubble{
+    background-image: url('../../Assets/Yellow\ Bubble.png');
+    height: 1124px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.titleText{
+    position: absolute;
+    width : 150px;
+    height: 50px;
+    left: 475px;
+    top: 75px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    background: #F7D832;
+    border-radius: 5px;
+}
+
+.rightContent{
+    padding-right: 15px; 
+    position: absolute;
+     top: 20%;
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    -o-transform: translateY(-20%);
+}
+
+.rightContentTitle{
+    font-size: 34px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    color: #333333;
+    line-height: 44px;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.rightContentParagraph{
+    padding-right: 30px;
+    font-size: 18px;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 500;
+    color: #333333;
+}
+
+.loginImg img{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -55%);
+    -webkit-transform: translate(-50%, -55%);
+    -moz-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    -o-transform: translate(-50%, -55%);
+}
+
+/***************************************** Left *****************************************/
+.topBubble{
+    background-image: url('../../Assets/Bubble\ top.png');
+    height: 510px;
+    width: 510px;
+    left: -255px;
+    top: -255px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+}
+.bottomBubble{
+    position: absolute;
+    /* position: relative; */
+    background-image: url('../../Assets/Bubble\ down.png');
+    height: 283px;
+    width: 510px;
+    left: 200px;
+    top: 825px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+}
+.DoofText{
+    position: absolute;
+    height: 59px;
+    width: 152px;
+    top: 35px;
+    left: 80px;
+    color: #F7D832;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+}
+.leftParagraph{
+    display: flex;
+}
+.singleParagraph{
+    margin-left: 80px;
+    margin-top: 400px;
+    z-index: 1;
+}
